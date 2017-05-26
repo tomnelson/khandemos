@@ -1,9 +1,22 @@
-<script src="cytoscape.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Graph</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.1.1/cytoscape.js"></script>
+</head>
+  <style>
 #cy {
   width: 300px;
   height: 300px;
   display: block;
 }
+</style>
+<body>
+  <h3>A Graph</h3>
+  <canvas id="canvas"></canvas>
+<script>
+
+
 var cy = cytoscape({
 
   container: document.getElementById('cy'), // container to render in
@@ -46,3 +59,6 @@ var cy = cytoscape({
   }
 
 });
+  </script>
+</body>
+</html>
