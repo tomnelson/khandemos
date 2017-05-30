@@ -32,7 +32,36 @@ var cy = cytoscape({
     },
     { // edge ab
       data: { id: 'ab', source: 'a', target: 'b' }
+    },
+    { // node a
+      data: { id: 'c' }
+    },
+    { // node b
+      data: { id: 'd' }
+    },
+    { // edge ab
+      data: { id: 'cd', source: 'c', target: 'd' }
+    },
+    { // node a
+      data: { id: 'e' }
+    },
+    { // node b
+      data: { id: 'f' }
+    },
+    { // edge ab
+      data: { id: 'ef', source: 'e', target: 'f' }
+    },
+    { // edge ab
+      data: { id: 'ad', source: 'a', target: 'd' }
+    },
+    { // edge ab
+      data: { id: 'fb', source: 'f', target: 'b' }
+    },
+    { // edge ab
+      data: { id: 'ea', source: 'e', target: 'a' }
     }
+
+
   ],
 
   style: [ // the stylesheet for the graph
