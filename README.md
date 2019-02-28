@@ -1,4 +1,7 @@
 # khandemos
 my demos from kahnacademy
-https://tomnelson.github.io/khandemos/graph.html
-https://tomnelson.github.io/khandemos/fish.html
+
+<ul>
+  <li>https://tomnelson.github.io/khandemos/graph.html</li>
+  <li>https://tomnelson.github.io/khandemos/fish.html</li>
+</ul>
