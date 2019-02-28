@@ -1,5 +1,5 @@
 # khandemos
-my demos from kahnacademy
+my demos from khanacademy
 
 <ul>
   <li>https://tomnelson.github.io/khandemos/graph.html</li>
